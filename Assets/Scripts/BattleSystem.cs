@@ -126,7 +126,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         state = BattleState.ENEMYTURN;
-        
+        StartCoroutine(EnemyTurn());
     }
     public void OnAttackButton()
     {

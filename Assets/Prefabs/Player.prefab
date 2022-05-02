@@ -111,6 +111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Markus
   uniteLevel: 10
-  damage: 5
-  maxHP: 30
-  currentHP: 30
+  damage: 10
+  maxHP: 100
+  currentHP: 50

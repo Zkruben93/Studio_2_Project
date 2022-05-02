@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: SlickRick
-  uniteLevel: 7
-  damage: 3
-  maxHP: 20
-  currentHP: 20
+  uniteLevel: 10
+  damage: 5
+  maxHP: 50
+  currentHP: 50
