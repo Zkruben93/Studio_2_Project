@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
@@ -51,7 +52,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
-       bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+        bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
         enemyHUD.SetHP(enemyUnit.damage);
         dialougeText.text = " The attack hits! ";
@@ -62,7 +63,8 @@ public class BattleSystem : MonoBehaviour
         {
             state = BattleState.WON;
             EndBattle();
-        } else
+        }
+        else
         {
             state = BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
@@ -94,9 +96,9 @@ public class BattleSystem : MonoBehaviour
 
         void EndBattle()
         {
-            if(state == BattleState.WON)
+            if (state == BattleState.WON)
             {
-                dialougeText.text = " You won the battle! ";          
+                dialougeText.text = " You won the battle! ";
             }
             else if (state == BattleState.LOST)
             {
@@ -104,6 +106,8 @@ public class BattleSystem : MonoBehaviour
             }
 
         }
+
+
     }
 
     void PlayerTurn()
@@ -113,6 +117,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerHeal()
     {
+
         playerUnit.Heal(5);
 
         playerHUD.SetHP(playerUnit.currentHP);
@@ -121,8 +126,7 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         state = BattleState.ENEMYTURN;
-        StartCoroutine(EnemyTurn());
-
+        
     }
     public void OnAttackButton()
     {
