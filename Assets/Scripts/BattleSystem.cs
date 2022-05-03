@@ -39,7 +39,7 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyGO = Instantiate(enemyPrefab, enemyBattlestation);
         enemyUnit = enemyGO.GetComponent<Unit>();
 
-        dialougeText.text = "The " + enemyUnit.unitName + " saw us, be ready!";
+        dialougeText.text = "A " + enemyUnit.unitName + " saw us, fight!";
 
         playerHUD.SetHUD(playerUnit);
         enemyHUD.SetHUD(enemyUnit);
@@ -75,7 +75,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EnemyTurn()
     {
-        dialougeText.text = enemyUnit.unitName + "Attacks!";
+        dialougeText.text = enemyUnit.unitName + " Attacks!";
 
         yield return new WaitForSeconds(1f);
 
@@ -121,7 +121,7 @@ public class BattleSystem : MonoBehaviour
         playerUnit.Heal(5);
 
         playerHUD.SetHP(playerUnit.currentHP);
-        dialougeText.text = " You quickly apply bandages! ";
+        dialougeText.text = " You apply bandages! ";
 
         yield return new WaitForSeconds(2f);
 
