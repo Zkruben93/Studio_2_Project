@@ -108,8 +108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38571a1ce0a18e44eb35ba33160c7132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: SlickRick
-  uniteLevel: 7
-  damage: 3
-  maxHP: 20
-  currentHP: 20
+  unitName: Russian
+  uniteLevel: 10
+  damage: 5
+  maxHP: 50
+  currentHP: 50
