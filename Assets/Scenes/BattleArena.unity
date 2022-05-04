@@ -4808,8 +4808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8a1dfebf053e874c92bcb80983916c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 3615626739907289324, guid: cd9ac3a40cb24514f9dbed5b0db26ff7, type: 3}
-  enemyPrefab: {fileID: 491356774793660166, guid: 7ebb3147a2c731a4cab95e7f8b92f4a8, type: 3}
+  playerPrefab: {fileID: 933777062963924188, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+  enemyPrefab: {fileID: 8948933892065454284, guid: 5b3435d8a88bbec49bbf4fc25c023d1b, type: 3}
   playerBattlestation: {fileID: 882538685}
   enemyBattlestation: {fileID: 660244519}
   dialougeText: {fileID: 691351606}
