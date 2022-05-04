@@ -1226,7 +1226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 63.3, y: -145}
+  m_AnchoredPosition: {x: 64.9, y: -138}
   m_SizeDelta: {x: 161, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725600444
@@ -1445,7 +1445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -125.79999}
+  m_AnchoredPosition: {x: 0, y: -193.13}
   m_SizeDelta: {x: 200, y: -516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879197295
@@ -1481,10 +1481,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hello my name is Florence Nightingale and I am the head researcher of this
-    facility. Thank you for coming. I have allready started looking into the reason
-    so many soldiers are dying, but to take it further I need tests. Sadly I don't
-    have the equipment needed for these tests, so please go out and find some.
+  m_Text: "\u201CThere you are! Thank you for coming, it is very much needed. The
+    tent might be empty now, but very soon it will be filled to the brim as wounded
+    soldiers return from battle.\u201D\r\n\r\n\u201CWe are understaffed, the doctors
+    refuse to work with me, hygiene is poor, and we lack a lot of basic equipment.
+    I\u2019ve gone ahead and bought some, but we are in serious need of help from
+    someone with experience.\u201D\r\n\r\n\u201CPlease, can you try to find us some
+    more equipment? I\u2019ll be tending to the wounded here and cannot leave my
+    station. If you manage to find anything, it would help me save many more lives.\u201D\r\n\r\n\u201CBut
+    do be careful! There are enemy scouts and patrols everywhere. Their camps might
+    have some usable equipment, but be careful of the dangers.\u201D\r"
 --- !u!222 &879197296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1574,7 +1580,7 @@ GameObject:
   - component: {fileID: 983575306}
   - component: {fileID: 983575305}
   m_Layer: 0
-  m_Name: DialogueTrigger_Event
+  m_Name: Conversation_Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1592,6 +1598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ade43f4e557eb428d44abd5a74f014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1605097869}
 --- !u!65 &983575306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2289,6 +2296,7 @@ GameObject:
   - component: {fileID: 1605097866}
   - component: {fileID: 1605097865}
   - component: {fileID: 1605097868}
+  - component: {fileID: 1605097869}
   m_Layer: 5
   m_Name: TestButton
   m_TagString: Untagged
@@ -2313,7 +2321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -622, y: -313}
+  m_AnchoredPosition: {x: -622, y: -405}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605097865
@@ -2425,12 +2433,38 @@ MonoBehaviour:
   dialogue:
     name: Florence Nightingale
     sentences:
-    - Hello. My name is Florence Nightingale, and I am the head researcher of this
-      facility.
-    - Thank you for coming! I have already started looking into the reason so many
-      soldiers are dying outside of combat, but I need futher tests.
-    - Sadly, I don't have the equipment needed for these tests, so please go out
-      and find me some needles and containers.
+    - There you are! Thank you for coming, it is very much needed. The tent might
+      be empty now, but very soon it will be filled to the brim as wounded soldiers
+      return from battle.
+    - As you already know, I am known as Florence Nightingale, and I am the leading
+      nurse.
+    - "We are understaffed, the doctors refuse to work with me, hygiene is poor,
+      and we lack a lot of basic equipment. I\u2019ve gone ahead and bought some,
+      but we are in serious need of help from someone with experience."
+    - "Please, can you try to find us some more equipment? I\u2019ll be tending to
+      the wounded here and cannot leave my station. If you manage to find anything,
+      it would help me save many more lives."
+    - But do be careful! There are enemy scouts and patrols everywhere. Their camps
+      might have some usable equipment, but be careful of the dangers.
+--- !u!95 &1605097869
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605097863}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f65f7e196d73dfe4893151dae8ea78c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1621965343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2745,7 +2779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -210}
+  m_AnchoredPosition: {x: 0, y: -353}
   m_SizeDelta: {x: -600, y: -87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801347581
