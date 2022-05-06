@@ -198,19 +198,16 @@ MonoBehaviour:
   dialogue:
     name: Florence Nightingale
     sentences:
-    - There you are! Thank you for coming, it is very much needed. The tent might
-      be empty now, but very soon it will be filled to the brim as wounded soldiers
-      return from battle.
-    - As you already know, I am known as Florence Nightingale, and I am the leading
-      nurse.
-    - "We are understaffed, the doctors refuse to work with me, hygiene is poor,
-      and we lack a lot of basic equipment. I\u2019ve gone ahead and bought some,
-      but we are in serious need of help from someone with experience."
-    - "Please, can you try to find us some more equipment? I\u2019ll be tending to
-      the wounded here and cannot leave my station. If you manage to find anything,
-      it would help me save many more lives."
-    - But do be careful! There are enemy scouts and patrols everywhere. Their camps
-      might have some usable equipment, but be careful of the dangers.
+    - My friend, welcome back! Thank you so much for all the supplies you have supplied
+      us with.
+    - "Due to your help, we\u2019ve managed to bring the rate of death down to 2%
+      from the earlier 40%\r\nThis is phenomenal work, so thank you for all the hard
+      work you\u2019ve put in for this.\r\n"
+    - My mission here is done, and I am returning home very soon. I have made arrangements
+      to see the government and have been preparing some statistics to show our success.
+    - Take a look.
+    - Hopefully this will convince them a clean and well supplied medical encampment
+      saves lives. But anyway, I need to be off now. Until next time, my friend.
 --- !u!114 &11418751
 MonoBehaviour:
   m_ObjectHideFlags: 0
