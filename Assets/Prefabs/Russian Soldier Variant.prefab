@@ -25,43 +25,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.09721786
+      value: 0.09455215
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0050833076
+      value: 0.1335485
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13
+      value: -1.464481
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.124582134
+      value: 0.22445226
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.099733114
+      value: 0.013835686
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6767447
+      value: -0.9743817
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.71871364
+      value: -0.0031870988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 71.428
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 281.61798
+      value: 205.944
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 459.577
+      value: 358.373
       objectReference: {fileID: 0}
     - target: {fileID: -4485525633491119247, guid: 16334e6b7ebfb3a4f837bd3c8af186b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -92,6 +92,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitName: Russian
   uniteLevel: 10
-  damage: 5
-  maxHP: 25
-  currentHP: 25
+  damage: 10
+  maxHP: 40
+  currentHP: 40
