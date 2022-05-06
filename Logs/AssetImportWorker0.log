@@ -176,3 +176,4 @@ Received Import Request.
 Start importing Assets/Prefabs/Florance_the_bitch.prefab using Guid(fbd2196265cfe814cb185427fb120c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ca189747dbe070594853be11b468b') in 0.066068 seconds 
   Import took 0.074886 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
