@@ -440,6 +440,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e00c34ecb5e9fd9458209ea37b269cd3, type: 3}
+--- !u!1001 &59887957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.10194968
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6897493
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7079851
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11229118
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -17.436
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.367
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -88.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 933777062963924188, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_Name
+      value: British solider v2 (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
 --- !u!1001 &74104232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1154,6 +1211,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6712b3481bbd0334a94b5599f63c9cd7, type: 3}
+--- !u!1001 &304952214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.133521
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.9785385
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6894781
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.66905063
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.19097239
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2012978
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 57.748
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -86.584
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -87.454
+      objectReference: {fileID: 0}
+    - target: {fileID: 933777062963924188, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_Name
+      value: British solider v2 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
 --- !u!1001 &312502735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3015,6 +3129,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1156007233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.10194968
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6897493
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7079851
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11229118
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -17.436
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.367
+      objectReference: {fileID: 0}
+    - target: {fileID: 558061413121070694, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -88.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 933777062963924188, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
+      propertyPath: m_Name
+      value: British solider v2 (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ab306144174cc4798523c0da4280f9, type: 3}
 --- !u!1001 &1223947649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4941,13 +5112,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092074625}
-  m_LocalRotation: {x: 0.5274551, y: -0.24973895, z: 0.14833131, w: 0.79838556}
-  m_LocalPosition: {x: -0.10433334, y: 0.56288266, z: -0.32733333}
+  m_LocalRotation: {x: 0.001038376, y: 0.9515007, z: -0.30763265, w: -0.0027497676}
+  m_LocalPosition: {x: -0.186, y: 0.29800004, z: 0.412}
   m_LocalScale: {x: 0.033333335, y: 0.033333335, z: 0.033333335}
   m_Children: []
   m_Father: {fileID: 1700783928}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 66.393, y: -37.232, z: -3.809}
+  m_LocalEulerAnglesHint: {x: 35.833, y: 180.415, z: 0.259}
 --- !u!114 &2092074629
 MonoBehaviour:
   m_ObjectHideFlags: 0
